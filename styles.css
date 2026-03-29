@@ -1,0 +1,232 @@
+*{
+    box-sizing: border-box;
+    border: none;
+    margin: 0px;
+
+    color: white;
+    text-shadow: 3px 3px 0px black;
+}
+
+div{
+    background-color: #0A6613;
+    border: 40px solid #56332C;
+    padding: 40px;
+    
+}
+
+p, td{
+    font-family: "Madimi One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 2rem;
+}
+
+h1, h2{
+    font-family: "Macondo Swash Caps", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 4vw;
+}
+
+h2{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+}
+
+span{
+    margin: 50px 0px;
+}
+
+.div1{
+    position: relative;
+}
+
+.div1 img{
+    width: 1280px;
+    display: block;
+    margin: auto;
+}
+
+h1{
+    position: absolute;
+    max-width: 50%;
+    bottom: 10%;
+    left: 8%;
+}
+
+.div2{
+    background-color: #bed154;
+}
+
+.div2 p, .div2 img, .div3 p, .div3 img, .div4 p, .div4 img, .div6 p, .div6 img{
+    text-align: center;
+    display: inline-block;
+    width: 49%;
+    vertical-align: middle;
+    padding: 0px 30px;
+}
+
+.div3{
+    background-color: #B3C83F;
+}
+
+section{
+    margin-bottom: 30px;
+}
+
+#aside{
+    font-size: 1.5rem;
+    width: 20%;
+}
+
+#wide{
+    width: 79%;
+}
+
+.div4{
+    background-color: #74AB31;
+}
+
+#tip{
+    font-size: 1.5rem;
+    width: 60%;
+    padding-top: 10px;
+    margin:auto;
+    display: block;
+}
+
+.div5{
+    background-color: #4A9928;
+}
+
+.div5 p{
+    text-align: center;
+    display: block;
+    width: 75%;
+    margin: auto;
+}
+
+.div5 table{
+    padding: 50px 200px;
+}
+
+.div5 td{
+    padding: 20px;
+}
+
+#td1{
+    color: #E51B1B;
+    text-shadow: 3px 3px 0px #9F1919;
+}
+
+#td2{
+    color: #FEA900;
+    text-shadow: 3px 3px 0px #A16C04;
+}
+
+#td3{
+    color: #FFE600;
+    text-shadow: 3px 3px 0px #8F8102;
+}
+
+#td4{
+    color: #26E001;
+    text-shadow: 3px 3px 0px #198A03;
+}
+
+.div5 img{
+    max-width: 75%;
+    display: block;
+    margin: auto;
+}
+
+.div6{
+    background-color: #248318;
+}
+
+.div7 p{
+    text-align: center;
+    display: block;
+    width: 60%;
+    margin: auto;
+    padding-bottom: 30px;
+}
+
+.div7 img{
+    max-width: 75%;
+    display: block;
+    margin: auto;
+}
+
+@media (max-width: 750px) {
+
+    p, h1, h2, td, img{
+        display: block;
+        width: 100%;
+    }
+        
+    div{
+        border: 20px solid #56332C;  
+        padding: 20px;
+    }
+
+    h1{
+        position:absolute;
+        max-width: 50%;
+        bottom: 15%;
+        left: 8%;
+    }
+
+    h1, h2{
+        font-size: 6vw;
+    }
+
+    .div2 p, .div2 img, .div3 p, .div3 img, .div4 p, .div4 img, .div6 p, .div6 img{
+        display: block;
+        width: 100%;
+        padding: 30px;
+    }
+
+    section{
+    margin-bottom: 0px;
+}
+
+    #aside{
+        width: 100%;
+    }
+
+    #wide{
+        width: 100%;
+    }
+
+    #tip{
+        font-size: 2rem;
+        width: 100%;
+    }
+
+    .div5 p{
+        text-align: center;
+        width: 100%;
+    }
+
+    .div5 table, .div5 td{
+        padding: 0px;
+    }
+
+    .div5 img{
+        max-width: 100%;
+    }
+
+    .div7 p{
+        width: 100%;
+    }
+
+    .div7 img{
+        max-width: 100%;
+    }
+}
